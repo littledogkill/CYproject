@@ -51,6 +51,9 @@ summarize_tool_one      将拆解的文本总结成CY网页合适的帖子格式
 send_tool_one           以CY网页用户的身份发送帖子
 send_tool_two           获取token
 ```
+
+- 在这个过程中，为了防止出现项目简介过大的情况，引用了github上的长段落提取出短句项目`testteaser`
+
 - agent工作流程
 
 ![agentwork](image/agentwork.svg)
