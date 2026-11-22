@@ -27,7 +27,7 @@
 | 后端 | Spring Boot + JPA + MySQL + Redis |
 | Agent | Python + OpenAI Function Calling（DeepSeek） |
 
-> 更详细的实现说明见 **[TECHNICAL.md](./TECHNICAL.md)**。
+> 更详细的实现说明见 **[TECHNICAL.md](./technical/TECHNICAL.md)**。
 
 ## 本地运行
 
