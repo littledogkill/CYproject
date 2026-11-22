@@ -65,7 +65,7 @@ npm run dev
 
 开发服务器会把 <code>/api</code> 请求代理到 <code>http://localhost:8080</code>（配置见 <code>vite.config.js</code>）。
 
-### Agent（可选）
+### Agent
 
 ```bash
 cd CYproject_python_Plugin
