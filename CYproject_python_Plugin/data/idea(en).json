@@ -1,0 +1,58 @@
+{
+  "tip": {
+    "topic": "AI and agents, including their derivatives (agent skills, plugins, frameworks, tooling, infrastructure).",
+    "item_type": "project description",
+    "levels": [
+      "very low",
+      "low",
+      "medium",
+      "high",
+      "very high"
+    ],
+    "properties": {
+      "depth": {
+        "axis": "Vertical: how deeply the project understands AI/agent principles (from 'just points to things' to 'explains the underlying mechanisms').",
+        "levels": {
+          "very low": "Does not explain anything. Pure resource list, link collection, awesome-list, name-only index, or a project whose description reveals no understanding of AI/agent internals.",
+          "low": "Explains only basic/introductory concepts. Answers 'what is it' at a surface level (e.g. beginner tutorials on basic AI ideas, glossary-level content).",
+          "medium": "Explains how to use it, not why it works. Project introductions, usage tutorials, API how-tos, application-level integration guides. Knows the interface, not the mechanism.",
+          "high": "Explains mechanisms and design rationale. Covers core algorithms, architecture design, engineering trade-offs, or how a system is built and why (e.g. agent orchestration design, retrieval pipeline internals).",
+          "very high": "Explains frontier/deep principles. Covers the latest AI architectures, advanced or complex agent principles, original research-level analysis, or rigorous derivation of why something works."
+        }
+      },
+      "breadth": {
+        "axis": "Horizontal: how far the project is derived from the AI/agent core. Closer to the core = lower; more peripheral/adjacent = higher.",
+        "levels": {
+          "very low": "Is the AI/agent core itself: base models, core agent frameworks, core reasoning/planning mechanisms, the thing that defines AI/agent capability.",
+          "low": "Direct capability extensions of the core: agent skills, plugins, tools, prompt templates, memory modules, narrow capability add-ons tightly bound to agents.",
+          "medium": "Application-layer projects built on AI/agents: vertical apps, workflows, use-case integrations that use the core to solve a specific task.",
+          "high": "Supporting infrastructure for using AI/agents: environment setup, network/proxy configuration, deployment, gateways, SDK wrappers, runtime plumbing.",
+          "very high": "Peripheral or indirect: general dev tools or utilities only loosely related to AI/agents, or things that merely touch the ecosystem without serving it directly."
+        }
+      },
+      "popularity": {
+        "axis": "Determined by GitHub star count.",
+        "levels": {
+          "very low": "very few stars (niche/unknown)",
+          "low": "below-average stars",
+          "medium": "typical/moderate stars",
+          "high": "well-known, high stars",
+          "very high": "top-tier, dominant star count"
+        }
+      },
+      "recency": {
+        "axis": "Determined by the item's release/publish time.",
+        "levels": {
+          "very low": "old/stale, not updated in a long time",
+          "low": "somewhat dated",
+          "medium": "moderately recent",
+          "high": "recently released/updated",
+          "very high": "newly emerged / just released"
+        }
+      }
+    },
+    "scoring_rule": "Score depth and breadth independently using the level definitions above; do not let one influence the other. Example: an agent skill is breadth='low' regardless of how deep it is; a deep tutorial is depth='high'/'very high' regardless of how peripheral it is.",
+    "filtering": "Keep only items whose levels satisfy the required thresholds; reject any item below a required threshold. If a property cannot be judged from the description, exclude the item rather than guessing, unless a neutral default ('medium') is explicitly allowed.",
+    "goal": "Let the AI select and filter AI/agent projects using these four orthogonal properties and their levels."
+  }
+}

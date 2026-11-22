@@ -1,0 +1,34 @@
+{
+  "name": "cyproject",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write --experimental-cli src/"
+  },
+  "dependencies": {
+    "@hugeicons/core-free-icons": "^4.3.5",
+    "@hugeicons/vue": "^1.0.8",
+    "@tailwindcss/vite": "^4.3.3",
+    "axios": "^1.21.0",
+    "gsap": "^3.15.0",
+    "markdown-it": "^15.0.3",
+    "motion-v": "^2.8.0",
+    "ogl": "^1.0.11",
+    "tailwindcss": "^4.3.3",
+    "vue": "^3.5.42",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "prettier": "3.9.6",
+    "vite": "^8.2.2",
+    "vite-plugin-vue-devtools": "^8.2.1"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}
