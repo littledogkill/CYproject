@@ -81,8 +81,9 @@ CYproject/
 ├── CYproject_Spring_Backend/   # 后端（Spring Boot）
 ├── CYproject_Vue_Frontend/     # 前端（Vue 3）
 ├── CYproject_python_Plugin/    # Python Agent
-├── TECHNICAL.md                # 技术实现文档
-└── image/                      # 文档配图
+├── technical
+    ├── TECHNICAL.md                # 技术实现文档
+    └── image/                      # 文档配图
 ```
 
 ## 许可证
